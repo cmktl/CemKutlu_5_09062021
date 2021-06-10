@@ -1,1 +1,14 @@
+// import bootstrap to Sass
+
 @import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+// Abstracts
+
+@import './abstracts/variables';
+
+// components
+
+@import './components/product-card';
+
+// pages
+@import './pages/home';
