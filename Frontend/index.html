@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="dist/css/style.css" />
+		<link
+			rel="stylesheet"
+			href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+			integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+			crossorigin="anonymous"
+		/>
+		<title>Orinoco</title>
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<!-- Navbar -->
+				<nav class="navbar navbar-expand-md navbar-light bg-primary">
+					<a class="navbar-brand" href="#">
+						<img
+							src="./images/Orinoco-logo.png"
+							height="50"
+							alt="Orinoco logo"
+						/>
+					</a>
+					<!-- Collapse button -->
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-toggle="collapse"
+						data-target="#basicExampleNav6"
+						aria-controls="basicExampleNav6"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<!-- Links -->
+					<!--test -->
+					<div
+						class="collapse navbar-collapse justify-content-end"
+						id="basicExampleNav6"
+					>
+						<!-- Right -->
+						<ul class="navbar-nav nav-flex-icons">
+							<li class="nav-item dropdown notifications-nav pr-md-3">
+								<a
+									class="nav-link dropdown-toggle"
+									id="navbarDropdownMenuLink151"
+									data-toggle="dropdown"
+								>
+									<span class="badge badge-pill bg-danger">1</span>
+									<span><i class="fas fa-shopping-cart"></i></span>
+								</a>
+								<div class="dropdown-menu dropdown-menu-right">
+									<a class="dropdown-item" href="#">
+										<span>M50 </span>
+									</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<!-- Links -->
+				</nav>
+				<!-- Navbar -->
+			</header>
+			<main>
+				<!--Container for all products-->
+				<div class="container">
+					<div>
+						<div
+							id="displayItems"
+							class="row row-cols-1 row-cols-md-3 g-4"
+						></div>
+					</div>
+				</div>
+			</main>
+		</div>
+		<script src="./dist/app.bundle.js"></script>
+		<script src="./src/js/index.js"></script>
+	</body>
+</html>
